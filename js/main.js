@@ -8,7 +8,6 @@ function openMenu() {
 	page.classList.add('page--nav-visible');
 };
 
-
 function closeMenu() {
 	page.classList.remove('page--nav-visible');
 };
