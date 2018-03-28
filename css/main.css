@@ -94,7 +94,8 @@ body {
   text-transform: uppercase;
   color: #fff;
   margin-left: 30px;
-  padding-top: 280px;;
+  padding-top: 384px;;
+  max-width: 300px;
 }
 /* FOOTER */
 .page__footer {
@@ -113,5 +114,48 @@ body {
   color: #858993;
   font-family: 'arial';
   text-align: center;
-  margin: 5px;
+  margin: 7px;
+}
+@media all and (min-width: 500px) {
+  .page__main-title {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 768px) {
+  .nav__items {
+    font-size: 35px;
+    padding-top: 164px;
+  }
+  .nav__item {
+    line-height: 58px;
+  }
+  .page__main-title {
+    font-size: 65px;
+    margin-left: 60px;
+    max-width: 990px;
+  }
+  .page__footer {
+    left: 60px;
+    right: 60px;
+  }
+}
+@media all and (min-width: 830px) {
+  .nav__items {
+    font-size: 45px;
+  }
+  .nav__item {
+    line-height: 79px;
+  }
+  .page__main-title {
+    font-size: 80px;
+  }
+}
+@media all and (min-width: 940px) {
+  .page__main-title {
+    font-size: 95px;
+  }
+  .page__footer {
+    left: 60px;
+    right: 60px;
+  }
 }
